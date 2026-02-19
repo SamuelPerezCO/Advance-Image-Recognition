@@ -36,14 +36,14 @@ listener.start()
 
 while running:
 
-    if pyautogui.pixel(1514 , 1100)[0] == 0:
-        click(1514 , 1100)
+    if pyautogui.pixel(1462 , 950)[0] == 0:
+        click(1462 , 1100)
     
-    if pyautogui.pixel(1593 , 1100)[0] == 0:
-        click(1593 , 1100)
+    if pyautogui.pixel(1524 , 950)[0] == 0:
+        click(1524 , 1100)
 
-    if pyautogui.pixel(1670 , 1100)[0] == 0:
+    if pyautogui.pixel(1594 , 950)[0] == 0:
+        click(1594 , 1100)
+
+    if pyautogui.pixel(1670 , 950)[0] == 0:
         click(1670 , 1100)
-
-    if pyautogui.pixel(1752 , 1100)[0] == 0:
-        click(1752 , 1100)
