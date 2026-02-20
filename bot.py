@@ -40,13 +40,13 @@ while running:
     time.sleep(0.1)
 
     if pyautogui.pixel(1500 , 1000)[0] == 0:
-        click(1500 , 1100)
+        click(1500 , 1000)
     
     if pyautogui.pixel(1570 , 1000)[0] == 0:
-        click(1570 , 1100)
+        click(1570 , 1000)
 
     if pyautogui.pixel(1665 , 1000)[0] == 0:
-        click(1665 , 1100)
+        click(1665 , 1000)
 
-    if pyautogui.pixel(1750 , 950)[0] == 0:
-        click(1750 , 1100)
+    if pyautogui.pixel(1750 , 1000)[0] == 0:
+        click(1750 , 1000)
