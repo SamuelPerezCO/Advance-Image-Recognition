@@ -36,29 +36,34 @@ listener.start()
 
 while running:
 
-    print(pyautogui.pixel(1462, 950))
+    print(pyautogui.pixel(1510, 950))
     time.sleep(0.1)
 
-    if pyautogui.pixel(1500 , 1000)[0] == 0:
-        click(1500 , 1000)
+    print("Color of the first square: ",pyautogui.pixel(1500 , 1000))
+    print("Color of the second square",pyautogui.pixel(1570 , 1000))
+    print("Color of the third square: ",pyautogui.pixel(1665 , 1000))
+    print("Color on the fourth square: ",pyautogui.pixel(1750 , 1000))
+
+    if pyautogui.pixel(1520, 1000) == (0, 0, 0):
+        click(1520, 1000)
         print("Click on the first square")
-        print(pyautogui.pixel(1500 , 1000))
+        print("Color of the first square:", pyautogui.pixel(1510, 1000))
         time.sleep(0.1)
-    
-    if pyautogui.pixel(1570 , 1000)[0] == 0:
-        click(1570 , 1000)
+
+    if pyautogui.pixel(1597, 1000) == (0, 0, 0):
+        click(1597, 1000)
         print("Click on the second square")
-        print(pyautogui.pixel(1570 , 1000))
+        print("Color of the second square:", pyautogui.pixel(1570, 1000))
         time.sleep(0.1)
 
-    if pyautogui.pixel(1665 , 1000)[0] == 0:
-        click(1665 , 1000)
+    if pyautogui.pixel(1670, 1000) == (0, 0, 0):
+        click(1670, 1000)
         print("Click on the third square")
-        print(pyautogui.pixel(1665 , 1000))
+        print("Color of the third square:", pyautogui.pixel(1665, 1000))
         time.sleep(0.1)
 
-    if pyautogui.pixel(1750 , 1000)[0] == 0:
-        click(1750 , 1000)
+    if pyautogui.pixel(1748, 1000) == (0, 0, 0):
+        click(1748, 1000)
         print("Click on the fourth square")
-        print(pyautogui.pixel(1750 , 1000))
+        print("Color of the fourth square:", pyautogui.pixel(1750, 1000))
         time.sleep(0.1)
