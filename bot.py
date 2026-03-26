@@ -39,7 +39,7 @@ while running:
     print(pyautogui.pixel(1510, 950))
     time.sleep(0.1)
 
-    print("Color of the first square: ",pyautogui.pixel(1500 , 1000))
+    print("Color of the first square: ",pyautogui.pixel(1510 , 1000))
     print("Color of the second square",pyautogui.pixel(1570 , 1000))
     print("Color of the third square: ",pyautogui.pixel(1665 , 1000))
     print("Color on the fourth square: ",pyautogui.pixel(1750 , 1000))
